@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+$Nun: 'Nunito', sans-serif;
+$Anton: 'Anton', sans-serif;
+
+.about-me{
+    position: relative;
+    top: 340px;
+    height: 595px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box1{
+        width: 62%;
+        height: 100%;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+
+        .box1a{
+            height: 100%;
+            width: 50%;
+            .title{
+                font-family: $Anton;
+                margin: 50px 20px;
+                font-size: 40px;
+                text-align: left;
+            }
+            .body{
+                font-family: $Nun;
+                line-height: 1.4em;
+                font-size: 1.2em;
+                p{
+                    margin: 20px;
+                    text-align: left;
+                }
+            }
+        }
+
+        .box1b{
+            height: 100%;
+            width: 50%;
+          
+
+            #photo{
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+}
